@@ -1,0 +1,7 @@
+/* Design tokens : palette, typographie, thème clair */
+:root{--black:#08070D;--midnight:#0D0B14;--purple-d:#171025;--purple:#8B5CF6;--violet:#A855F7;--white:#fff;--gray:#B8B3C7;
+--glass:rgba(23,16,37,.55);--border:rgba(139,92,246,.25);--glow:0 0 40px rgba(139,92,246,.35);
+--fh:'Poppins',system-ui,sans-serif;--fb:'Inter',system-ui,sans-serif;--nav-h:72px;--max:1160px}
+:root[data-theme="light"] .theme-toggle .sun{display:none}
+:root[data-theme="light"] .theme-toggle .moon{display:block}
+:root[data-theme="light"]{--black:#FBF9FF;--midnight:#F3EEFF;--purple-d:#EBE3FF;--white:#1A1230;--gray:#4B4463;--purple:#7C3AED;--violet:#9333EA;--glass:rgba(255,255,255,.75);--border:rgba(124,58,237,.28);--glow:0 0 36px rgba(124,58,237,.22);color-scheme:light}
